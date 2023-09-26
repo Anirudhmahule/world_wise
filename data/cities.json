@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Albalate del Arzobispo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-10T18:03:37.926Z",
+      "notes": "",
+      "position": {
+        "lat": "41.110797939498966",
+        "lng": "-0.5936143395557548"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Corral de Calatrava",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-13T16:55:27.562Z",
+      "notes": "",
+      "position": {
+        "lat": "38.8573832949319",
+        "lng": "-4.198450264429186"
+      },
+      "id": 98443199
+    }
+  ]
+}
