@@ -1,5 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import { CitiesProvider } from "./contexts/CitiesContext";
+import { CitiesContextProvider } from "./contexts/CitiesContext";
 import { Suspense, lazy } from "react";
 import { AuthProvider } from "./contexts/FakeAuthContext";
 
@@ -20,7 +20,7 @@ const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 function App() {
   return (
     <AuthProvider>
-      <CitiesProvider>
+      <CitiesContextProvider>
         <BrowserRouter>
           <Suspense fallback={<SpinnerFullPage />}>
             <Routes>
@@ -46,7 +46,7 @@ function App() {
             </Routes>
           </Suspense>
         </BrowserRouter>
-      </CitiesProvider>
+      </CitiesContextProvider>
     </AuthProvider>
   );
 }
