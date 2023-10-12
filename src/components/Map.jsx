@@ -10,9 +10,9 @@ import {
   useMapEvents,
 } from "react-leaflet";
 import { useCities } from "../contexts/CitiesContext";
-import { useGeolocation } from "../Hooks/useGeolocation";
+import { useGeolocation } from "../hooks/useGeolocation";
 import Button from "./Button";
-import { useUrlPosition } from "../Hooks/useUrlPosition";
+import { useUrlPosition } from "../hooks/useUrlPosition";
 
 function Map() {
   const [mapPosition, setMapPosition] = useState([40, 0]);
